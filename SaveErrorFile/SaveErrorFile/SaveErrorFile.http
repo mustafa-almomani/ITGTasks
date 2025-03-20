@@ -1,0 +1,6 @@
+@SaveErrorFile_HostAddress = http://localhost:5202
+
+GET {{SaveErrorFile_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
