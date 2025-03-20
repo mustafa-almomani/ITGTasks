@@ -1,0 +1,54 @@
+<ErrorLog>
+  <Error>
+    <ErrorTime>2025-03-19T08:27:52</ErrorTime>
+    <Tracing>   at TEST.task1.LoadLanguages(DropDownList ddlLanguages, String selectedLanguage) in C:\Users\mmmomani\source\repos\TEST\TEST\task1.aspx.cs:line 676
+   at TEST.task1.Page_Load(Object sender, EventArgs e) in C:\Users\mmmomani\source\repos\TEST\TEST\task1.aspx.cs:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Tracing>
+    <ErrorMessage>Object reference not set to an instance of an object.</ErrorMessage>
+  </Error>
+  <Error>
+    <ErrorTime>2025-03-19T08:30:30</ErrorTime>
+    <Tracing>   at TEST.task1.LoadLanguages(DropDownList ddlLanguages, String selectedLanguage) in C:\Users\mmmomani\source\repos\TEST\TEST\task1.aspx.cs:line 676
+   at TEST.task1.Page_Load(Object sender, EventArgs e) in C:\Users\mmmomani\source\repos\TEST\TEST\task1.aspx.cs:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Tracing>
+    <ErrorMessage>Object reference not set to an instance of an object.</ErrorMessage>
+  </Error>
+  <Error>
+    <ErrorTime>2025-03-19T11:32:15</ErrorTime>
+    <Tracing>   at TEST.task1.LoadLanguages(DropDownList ddlLanguages, String selectedLanguage) in C:\Users\mmmomani\source\repos\TEST\TEST\task1.aspx.cs:line 676
+   at TEST.task1.Page_Load(Object sender, EventArgs e) in C:\Users\mmmomani\source\repos\TEST\TEST\task1.aspx.cs:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Tracing>
+    <ErrorMessage>Object reference not set to an instance of an object.</ErrorMessage>
+  </Error>
+  <Error>
+    <ErrorTime>2025-03-19T11:54:22</ErrorTime>
+    <Tracing>   at TEST.task1.LoadLanguages(DropDownList ddlLanguages, String selectedLanguage) in C:\Users\mmmomani\source\repos\TEST\TEST\task1.aspx.cs:line 676
+   at TEST.task1.Page_Load(Object sender, EventArgs e) in C:\Users\mmmomani\source\repos\TEST\TEST\task1.aspx.cs:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Tracing>
+    <ErrorMessage>Object reference not set to an instance of an object.</ErrorMessage>
+  </Error>
+  <Error>
+    <ErrorTime>2025-03-19T13:13:09</ErrorTime>
+    <Tracing>   at TEST.task1.Page_Load(Object sender, EventArgs e) in C:\Users\mmmomani\source\repos\TEST\TEST\task1.aspx.cs:line 41
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Tracing>
+    <ErrorMessage>Object reference not set to an instance of an object.</ErrorMessage>
+  </Error>
+  <Error>
+    <ErrorTime>2025-03-19T13:13:28</ErrorTime>
+    <Tracing>   at TEST.task1.Page_Load(Object sender, EventArgs e) in C:\Users\mmmomani\source\repos\TEST\TEST\task1.aspx.cs:line 41
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Tracing>
+    <ErrorMessage>Object reference not set to an instance of an object.</ErrorMessage>
+  </Error>
+</ErrorLog>

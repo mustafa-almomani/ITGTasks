@@ -1,0 +1,209 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TEST.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Master Page</title>
+    <style>
+        /* Resetting margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General container for page layout */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            min-height: 100vh;
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
+
+        .sidebar h3 {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            width: 100%;
+            display: block;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #444;
+            border-radius: 5px;
+        }
+
+        /* Content area styles */
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            flex-grow: 1;
+            background-color: #f4f4f4;
+            min-height: 100vh;
+            padding-top: 50px;
+        }
+
+        .navbar {
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+        .navbar h4 {
+            font-size: 24px;
+        }
+
+        .navbar p {
+            font-size: 14px;
+        }
+
+        /* Custom Dropdown Styling */
+        .custom-dropdown {
+            width: 10%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 2px solid #007bff;
+            background-color: #f8f9fa;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover Effect */
+        .custom-dropdown:hover {
+            border-color: #0056b3;
+            background-color: #e2e6ea;
+        }
+
+        /* Focus Effect */
+        .custom-dropdown:focus {
+            outline: none;
+            border-color: #0056b3;
+            background-color: #ffffff;
+        }
+
+        /* Custom Arrow for Dropdown */
+        .custom-dropdown option {
+            padding: 10px;
+        }
+
+        /* Placeholder Styling */
+        .custom-dropdown option:first-child {
+            color: #6c757d;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                padding: 10px;
+            }
+
+            .content {
+                margin-left: 0;
+                padding-top: 70px; /* Add spacing for navbar */
+            }
+
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        body[dir="rtl"] .sidebar {
+    left: auto;
+    right: 0;
+}
+
+body[dir="rtl"] .content {
+    margin-left: 0;
+    margin-right: 250px;
+}
+    </style>
+
+    <asp:ContentPlaceHolder ID="cphhead" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="sidebar">
+                <h3>Sidebar</h3>
+                <ul>
+                    <li><a href="profile.aspx" runat="server" id="Homepage">Profile</a></li>
+                    <li><a href="task1.aspx" runat="server" id="ManageUsers">Manage Users</a></li>  
+                    <%--<li><a href="ITGgridview.aspx" runat="server" id="ITGgridView">ITGgridview </a></li>--%>
+                    <li><a href="LOGIN.aspx" runat="server" id="lbtnlogOut">Log Out</a></li>
+                      <li><a href="ErrorPage.aspx" runat="server" id="lbtnError">Errors</a></li>
+
+
+
+                </ul>
+            </div>
+
+            <div class="content">
+                <div class="navbar">
+                    <asp:ContentPlaceHolder ID="cphheader" runat="server"></asp:ContentPlaceHolder>
+                </div>
+
+                <div class="user-info">
+                    <asp:Label ID="lblwelcome"  meta:resourcekey="lblwelcome" runat="server"></asp:Label>
+                    <asp:Label ID="lbuserInformation" runat="server"></asp:Label>
+                    <br /><br />
+                    <asp:DropDownList
+                        ID="ddlLanguage"
+                        runat="server"
+                        AutoPostBack="True"
+                        OnSelectedIndexChanged="ddlLanguage_SelectedIndexChanged"
+                        CssClass="custom-dropdown"
+                        aria-label="Select language">
+                    </asp:DropDownList>
+                </div>
+
+                <br /><br />
+                <asp:ContentPlaceHolder ID="cphcontent" runat="server"></asp:ContentPlaceHolder>
+
+                <div class="navbar">
+                    <h4>Master Page Task</h4>
+                    <p>4/2/2024</p>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+2/25/2025 11:28:55 AM: Received request: fileName=IMG_8874.jpeg
+2/25/2025 11:28:55 AM: Created directory: C:\Users\mmmomani\source\repos\TEST\TEST\UploadedImages\
+2/25/2025 11:28:55 AM: File uploaded successfully: /UploadedImages/IMG_8874.jpeg
+2/25/2025 11:36:39 AM: Received request: fileName=OIP.png
+2/25/2025 11:36:39 AM: File uploaded successfully: /UploadedImages/OIP.png
+2/25/2025 12:07:22 PM: Received request: fileName=OIP1.JPG
+2/25/2025 12:07:22 PM: Error: 'C:/UploadedImages/' is a physical path, but a virtual path was expected.
+2/25/2025 12:16:08 PM: Received request: fileName=OIP1.JPG
+2/25/2025 12:16:08 PM: Created directory: C:\ExternalImages\
+2/25/2025 12:16:08 PM: File uploaded successfully: /ExternalImages/OIP1.JPG
+2/25/2025 12:21:29 PM: Received request: fileName=OIP.png
+2/25/2025 12:21:29 PM: File uploaded successfully: /ExternalImages/OIP.png
+2/25/2025 12:43:13 PM: Received request: fileName=OIP.png
+2/25/2025 12:43:13 PM: File uploaded successfully: /ExternalImages/OIP.png
+2/25/2025 1:57:34 PM: Received request: fileName=OIP.png
+2/25/2025 1:57:34 PM: Created directory: C:\ExternalImages\
+2/25/2025 1:57:34 PM: File uploaded successfully: /ExternalImages/OIP.png
+2/25/2025 1:58:52 PM: Received request: fileName=OIP.png
+2/25/2025 1:58:52 PM: File uploaded successfully: /ExternalImages/OIP.png
+2/25/2025 1:59:17 PM: Received request: fileName=OIP.png
+2/25/2025 1:59:17 PM: Created directory: C:\ExternalImages\
+2/25/2025 1:59:17 PM: File uploaded successfully: /ExternalImages/OIP.png
+2/25/2025 2:02:52 PM: Received request: fileName=IMG_8874.jpeg
+2/25/2025 2:02:52 PM: File uploaded successfully: /ExternalImages/IMG_8874.jpeg
+2/25/2025 2:03:46 PM: Received request: fileName=OIP.png
+2/25/2025 2:03:46 PM: Created directory: C:\ExternalImages\
+2/25/2025 2:03:46 PM: File uploaded successfully: /ExternalImages/OIP.png
+2/25/2025 2:11:54 PM: Received request: fileName=OIP1.JPG
+2/25/2025 2:11:54 PM: File uploaded successfully: /ExternalImages/OIP1.JPG
+2/25/2025 2:16:11 PM: Received request: fileName=OIP1.JPG
+2/25/2025 2:16:11 PM: File uploaded successfully: /ExternalImages/OIP1.JPG
